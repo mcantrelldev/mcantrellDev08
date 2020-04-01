@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<!--##############################################
+#1 This is my List King. You should make it yours, 
+Change the page title to your name, 
+add in authorship comments too. BC 
+
+FIX: Added name. Added normalize CSS. Added authorship comments.
+###############################################-->
+
+<!-- 
+	Mason Cantrell
+	Creation Date: 03-31-2020
+	Version: 1.0
+-->
+	
+<head>
+  <meta charset="UTF-8">
+	<title>Mason Cantrell</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">  
+
+<!--##############################################
+#2 Help! Why did my stylesheet stop loading! BC
+
+FIX: Typo on styles.css, it should be style.css
+###############################################-->
+		<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<!--##############################################
+#3 Plz give a double-check on all my tags. Is my 
+HTML page valid. All tags closed? Parentheses, quotatoins, 
+etc. (Hint: 2 errors to fix here) -BC
+
+FIX: Added missing quotation mark to "add".
+Removed the "href=#" from button. 
+Corrected the import script for the
+external js.
+###############################################-->
+	
+<body>
+
+  <div id="page">
+  <h1 id="header">List</h1>
+  <h2>Buy groceries <span id="counter"></span></h2>
+  <ul>
+    <li id="one" class="hot"><em>fresh</em> figs</li>
+    <li id="two" class="hot">pine nuts</li>
+    <li id="three" class="hot">honey</li>
+    <li id="four">balsamic vinegar</li>
+  </ul>
+  <div id="newItemButton" class="favorite"><button id="showForm">new item</button></div>
+  <form id="newItemForm">
+    <input type="text" id="itemDescription" placeholder="Add description" />
+    <input type="submit" id="add" value="add" />																				 
+  </form>
+</div>
+  <script src='libs/jquery/3.3.1/jquery.min.js'></script>
+	<script src='scripts/script.js'></script>
+<!--##############################################
+#4 I think I'm having trouble debugging my script
+because this HTML file doesn't color code anything 
+for me to help me figure out my errors! How can I
+fix this. (Also this HTML code is so long, I'd  love to 
+make it simpler by moving this code somewhere else!) -BC
+																				 
+(hey, after this, the next one, #5 is in my stylesheet)
+
+FIX: Relocated JS to external script sheet.
+###############################################-->
+
+  <footer>
+    <a href="https://validator.w3.org/nu/"><u>Repository for this Page</u></a>
+    <br />
+    <a href="https://validator.w3.org/nu/"><u>NU Validator for this page</u></a>
+  </footer>
+</body>
+	
+</html>
